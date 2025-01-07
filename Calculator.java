@@ -3,6 +3,10 @@ import java.util.*;
 
 
 public class Calculator {
+
+   public static void add(int a,int b){
+  System.out.println(a+b);
+}
     public static void main(String[] args){
         Scanner scn=new Scanner(System.in);
         int a,b,c;
