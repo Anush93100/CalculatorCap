@@ -23,14 +23,22 @@ public class Calculator {
         c=scn.nextInt();
 
         if(c>0&&c<5){
-           if(c==1)
-             System.out.println(a+b);
-           else if(c==2)
-             System.out.println(a-b);
-           else if(c==3)
-             System.out.println(a*b);
-           else if(c==4)
-             System.out.println(a/b);
+           if(c==1){
+             //System.out.println(a+b);
+             Addition.add(a,b);
+           }
+           else if(c==2){
+             //System.out.println(a-b);
+             Substraction.sub(a,b);
+           }
+           else if(c==3){
+             //System.out.println(a*b);
+             Multiply.mul(a,b);
+           }
+           else if(c==4){
+             //System.out.println(a/b);
+             Division.div(a,b);
+           }
         }else{
            System.out.println("Invalid Input");
         }
